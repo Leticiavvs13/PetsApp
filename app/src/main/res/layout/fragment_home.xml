@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4ABFCD"
     tools:context=".HomeFragment">
 
     <TextView
@@ -12,13 +13,15 @@
         android:textSize="64sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/hello_blank_fragment"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#1E1D1D"/>
 
     <LinearLayout
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_gravity="center"
@@ -26,15 +29,18 @@
             android:layout_marginRight="5dp"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:text="To" />
+            android:text="To"
+            android:textColor="#1E1D1D"
+            android:fontFamily="@font/poppinsmedium"/>
 
         <TextView
             android:layout_gravity="center"
             android:textSize="45sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Books App" />
+            android:textColor="#ECD82A"
+            android:text="Pets App"
+            android:fontFamily="@font/poppinsbold"/>
 
     </LinearLayout>
 
